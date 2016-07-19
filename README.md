@@ -6,7 +6,7 @@ This is an interactive tutorial teaching the principles of next-generation data 
 
 You can launch it by clicling on the "Launch Binder" badge above. This will launch Binder and build a virutal environment (takes a few minutes), after which you can interactively analyze data.
 
-Alternatively, you can clone the repository and install the environment using the [Miniconda package manager](http://conda.pydata.org/miniconda.html).
+Alternatively, you can clone the repository and install the environment using the [Miniconda](http://conda.pydata.org/miniconda.html)  package manager from within the repo folder.
 
 	conda install jupyter ipython
 	conda env create -f environment.yml
