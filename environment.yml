@@ -1,0 +1,10 @@
+name: phage-lab
+
+channels:
+  - bioconda
+  - r
+
+dependencies:
+  - python=3.4
+  - fastqc
+  - r-essentials  
