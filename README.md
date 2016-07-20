@@ -6,7 +6,7 @@ This is an interactive tutorial teaching the principles of next-generation data 
 
 You can launch it by clicling on the "Launch Binder" badge above. This will launch Binder and build a virutal environment (takes a few minutes), after which you can interactively analyze data.
 
-Alternatively, on Mac and Linux you can clone the repository by `git clone https://github.com/mikheyev/phage-lab.git && cd phage-lab` and install the environment using the [Miniconda](http://conda.pydata.org/miniconda.html) package manager from within the repo folder.
+Alternatively, on Mac and Linux you can [download](https://github.com/mikheyev/phage-lab/archive/master.zip) this repository, unzip it and go into the `phage-lab` folder you created. You can then install the environment using the [Miniconda](http://conda.pydata.org/miniconda.html) package manager.
 
 	conda install jupyter ipython
 	conda env create -f environment.yml
