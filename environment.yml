@@ -8,6 +8,16 @@ dependencies:
   - python=3.4
   - biopython
   - r-essentials
+  - r 3.2.2*                                                                                                                        
+  - r-rcpp                                                                                                                          
+  - r-ape                                                                                                                           
+  - r-dplyr                                                                                                                         
+  - r-magrittr                                                                                                                      
+  - r-memuse                                                                                                                        
+  - r-pinfsc50                                                                                                                      
+  - r-stringr                                                                                                                       
+  - r-tidyr                                                                                                                         
+  - r-viridislite  
   - samtools
   - vcftools
   - bowtie2
