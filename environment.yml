@@ -7,8 +7,8 @@ channels:
 dependencies:
   - python=3.4
   - biopython
-  - r-essentials
-  - r 3.2.2*                                                                                                                        
+  - r=3.2.2
+  - r-essentials  
   - r-rcpp                                                                                                                          
   - r-ape                                                                                                                           
   - r-dplyr                                                                                                                         
