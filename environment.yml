@@ -13,4 +13,4 @@ dependencies:
   - vcftools
   - bowtie2
   - fastqc
-  - vcfr
+  - r-vcfr
