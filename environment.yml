@@ -7,6 +7,7 @@ channels:
 dependencies:
   - python=3.4
   - biopython
+  - r 3.2.2*
   - r-essentials  
   - samtools
   - vcftools
