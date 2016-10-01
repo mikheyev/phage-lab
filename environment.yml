@@ -8,7 +8,9 @@ channels:
 dependencies:
   - python=3.4
   - biopython
-  - r-essentials  
+  - r-essentials
+  - r-rzmq
+  - r-repr
   - samtools
   - vcftools
   - bowtie2
