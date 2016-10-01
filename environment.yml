@@ -3,6 +3,7 @@ name: phage-lab
 channels:
   - bioconda
   - r
+  - mikheyev
 
 dependencies:
   - python=3.4
@@ -13,3 +14,4 @@ dependencies:
   - vcftools
   - bowtie2
   - fastqc
+  - vcfr
