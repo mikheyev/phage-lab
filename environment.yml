@@ -13,6 +13,8 @@ dependencies:
   - r-repr     # for irkernel
   - r-crayon   # for irkernel
   - r-devtools # for irkernel
+  - r-libpng
+  - r-cairo
 #  - samtools
 #  - vcftools
 #  - bowtie2
