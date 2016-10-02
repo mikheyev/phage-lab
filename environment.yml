@@ -6,15 +6,14 @@ channels:
   - mikheyev
 
 dependencies:
-  - python=3.4
-  - biopython
+#  - python=3.4
+#  - biopython
   - r-essentials
-  - r-rzmq
+  - r-pbdzmq
   - r-repr
-  - r-cairo
-  - samtools
-  - vcftools
-  - bowtie2
-  - fastqc
-  - r-vcfr
-  - r-adegenet
+#  - samtools
+#  - vcftools
+#  - bowtie2
+#  - fastqc
+#  - r-vcfr
+#  - r-adegenet
