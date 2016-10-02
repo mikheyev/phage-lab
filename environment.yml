@@ -9,8 +9,10 @@ dependencies:
 #  - python=3.4
 #  - biopython
   - r-essentials
-  - r-pbdzmq
-  - r-repr
+  - r-pbdzmq   # for irkernel
+  - r-repr     # for irkernel
+  - r-crayon   # for irkernel
+  - r-devtools # for irkernel
 #  - samtools
 #  - vcftools
 #  - bowtie2
