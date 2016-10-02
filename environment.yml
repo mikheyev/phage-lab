@@ -13,7 +13,7 @@ dependencies:
   - r-repr     # for irkernel
   - r-crayon   # for irkernel
   - r-devtools # for irkernel
-  - r-libpng
+  - libpng # from r channel
   - r-cairo
 #  - samtools
 #  - vcftools
