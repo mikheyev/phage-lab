@@ -34,3 +34,6 @@ RUN Rscript -e "install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'p
 
 # Install other R packages
 RUN Rscript -e "install.packages(c('vcfR','ggplot2'))"
+
+# Change default css
+RUN mkdir ~/.jupyter/custom && cp ~/css/custom.css ~/.jupyter/custom
