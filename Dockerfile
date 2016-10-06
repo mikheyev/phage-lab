@@ -22,6 +22,8 @@ RUN apt-get update
 RUN apt-get install -y less emacs r-base r-base-core r-base-dev r-recommended r-cran-ggplot2 r-cran-vcfr libzmq3-dev libcurl4-gnutls-dev
 
 # install bioinformatics tools from conda
+RUN conda update conda
+RUN conda update ipython
 RUN conda install -c bioconda fastqc samtools vcftools bowtie2 biopython
 
 # Set default CRAN repo
