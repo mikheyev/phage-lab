@@ -19,7 +19,7 @@ ENV LANG en_US.UTF-8
 
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 381BA480
 RUN apt-get update
-RUN apt-get install -y less emacs r-base r-base-core r-base-dev r-recommended r-cran-ggplot2 libzmq3-dev libcurl4-gnutls-dev
+RUN apt-get install -y --fix-missing less emacs r-base r-base-core r-base-dev r-recommended libzmq3-dev libcurl4-gnutls-dev
 
 # install bioinformatics tools from conda
 RUN conda install -c bioconda fastqc samtools vcftools bowtie2 biopython
@@ -31,4 +31,4 @@ RUN echo 'options("repos"="http://cran.rstudio.com")' >> /usr/lib/R/etc/Rprofile
 RUN Rscript -e "install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'pbdZMQ', 'devtools', 'uuid', 'digest'))" -e "devtools::install_github('IRkernel/IRkernel')" -e "IRkernel::installspec(user = FALSE)"
 
 # Install other R packages
-RUN Rscript -e "install.packages(c('vcfR'))"
+RUN Rscript -e "install.packages(c('vcfR','ggplot2'))"
