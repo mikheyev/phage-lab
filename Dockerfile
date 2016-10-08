@@ -34,3 +34,7 @@ RUN Rscript -e "install.packages(c('repr', 'IRdisplay', 'evaluate', 'crayon', 'p
 
 # Install other R packages
 RUN Rscript -e "install.packages(c('vcfR','ggplot2'))"
+
+# Install Calico notebook extensions
+RUN git clone https://github.com/Calysto/notebook-extensions.git && cd notebook-extensions && jupyter nbextension install --system
+RUN jupyter nbextension enable calysto/document-tools/main && jupyter nbextension enable calysto/cell-tools/main && jupyter nbextension enable calysto/spell-check/main && jupyter nbextension enable calysto/submit/main
