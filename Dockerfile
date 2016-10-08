@@ -23,7 +23,7 @@ RUN apt-get install -y --fix-missing less tree emacs r-base r-base-core r-base-d
 
 # install bioinformatics tools from conda
 RUN conda update conda
-RUN conda update ipython
+RUN conda update ipython jupyter notebook
 RUN conda install -c bioconda fastqc samtools vcftools bowtie2 biopython
 
 # Set default CRAN repo
